@@ -9,6 +9,7 @@ export default function Home() {
 		return (
 			<Card
 				key={card.id}
+				upCountry={card.country.toUpperCase()}
 				{...card}
 			/>
 		);

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/Card.module.css";
 export default function Card(props) {
+
 	return (
 		<section className={styles.card}>
 			<div className={styles.imgWrapper}>
@@ -22,7 +23,7 @@ export default function Card(props) {
 							width={10}
 							height={10}
 						/>
-						<p>{props.country}</p>
+						<p>{props.upCountry}</p>
 					</div>
 					<a href={props.map} target="_blank" rel="noreferrer" className={styles.link}>View on Google Maps</a>
 				</div>
