@@ -1,0 +1,11 @@
+.nav {
+	height: 55px;
+	background-color: #F55A5A;
+	color: white;
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	width: 100%;
+}
